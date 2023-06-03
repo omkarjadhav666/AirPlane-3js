@@ -1,9 +1,12 @@
 {
-  "name": "r3f-loading-animations",
+  "homepage": "http://omkarjadhav666.github.io/Airplane-Threejs",
+  "name": "Omkar's-world",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -12,6 +15,7 @@
     "@react-three/drei": "^9.56.28",
     "@react-three/fiber": "^8.11.5",
     "@react-three/postprocessing": "^2.7.1",
+    "gh-pages": "^5.0.0",
     "gsap": "^3.11.5",
     "lamina": "^1.1.23",
     "react": "^18.2.0",
